@@ -1,0 +1,17 @@
+{
+    "background_color":"#151515",
+    "description": "Vibez",
+    "display": "standalone",
+    "icons": [
+      {
+        "src": "IconoManifest.png",
+        "sizes": "48x48 72x72 96x96 128x128 256x256 512x512",
+        "type": "image/png",
+        "purpose": "any"
+      }
+    ],
+    
+    "name": "Vibez​",
+    "short_name":  "Vibez",
+    "start_url": "/"
+  }
