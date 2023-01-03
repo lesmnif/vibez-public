@@ -69,9 +69,7 @@ Start the server
 
 ## Demo
 
-There's a simple preview loom of Vibez.
-
-[Vibez loom](https://www.loom.com/share/a666214fce714d139e3afd4e566fc7ab?user_id_of_reactor=701374)
+Here's a simple preview [Loom of Vibez](https://www.loom.com/share/a666214fce714d139e3afd4e566fc7ab?user_id_of_reactor=701374).
 
 If you want to test the app by yourself make sure to reach out to me on [LinkedIn](https://www.linkedin.com/in/bogdan-fotescu/) with a Spotify Mail so you can get access.
 
