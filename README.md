@@ -1,34 +1,80 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Vibez
 
-## Getting Started
+Vibez is a PWA built with Next.js (React.js) and Tailwind.css on top of Spotify API, Unsplash API and Supabase.
 
-First, run the development server:
+## About Vibez
+
+Vibez is a platform that helps people share and discover new music based on different feels or "vibes". With Vibez, you can:
+
+- Browse vibes to explore new music.
+- Create your own vibes to help others discover music that fits your desired feel.
+- Submit songs to any given vibe, either by searching for a specific song or sharing what you're currently listening to.
+- Sync your Spotify playlists with Vibez and add songs while browsing.
+- Create new playlists on the Vibez interface.
+
+## Screenshots
+
+![Vibez Tutorial](https://raw.githubusercontent.com/lesmnif/vibez-public/main/public/VibezTuto.png)
+![Vibez Main Screen](https://raw.githubusercontent.com/lesmnif/vibez-public/main/public/VibezMain.png)
+![Vibez Browsing Playlist](https://raw.githubusercontent.com/lesmnif/vibez-public/main/public/VibezBrowsing.png)
+![Vibez Browsing Song](https://raw.githubusercontent.com/lesmnif/vibez-public/main/public/VibezBrowsing2.png)
+![Vibez Adding Song](https://raw.githubusercontent.com/lesmnif/vibez-public/main/public/VibezAdding.png)
+
+## Requirements
+
+To use Vibez, you will need:
+
+- A Spotify account
+- Access to the Spotify API (available by creating a developer account on the [Spotify Developer website](https://developer.spotify.com/dashboard/login))
+- Access to the Unsplash API (available by creating a developer account on the [Unsplash Developer website](https://unsplash.com/developers))
+- An account with Supabase (available by signing up on the [Supabase website](https://supabase.com/) )
+
+Once you have the corresponding keys, make sure to change the following environment variables to your .env file.
+
+`VITE_SUPABASE_URL`
+
+`VITE_SUPABASE_ANON_KEY`
+
+`NEXT_PUBLIC_SPOTIFY_SECRET`
+
+`NEXT_PUBLIC_SPOTIFY_CLIENT`
+
+`NEXT_PUBLIC_UNSPLASH_ID`
+
+## Run Locally
+
+Clone the project
 
 ```bash
-npm run dev
-# or
-yarn dev
+  git clone https://github.com/lesmnif/vibez-public.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Go to the project directory
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+```bash
+  cd vibez-public
+```
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+Install dependencies
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+```bash
+  npm install
+```
 
-## Learn More
+Start the server
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+  npm run start
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Demo
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+There's a simple preview loom of Vibez.
 
-## Deploy on Vercel
+[Vibez loom](https://www.loom.com/share/a666214fce714d139e3afd4e566fc7ab?user_id_of_reactor=701374)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+If you want to test the app by yourself make sure to reach out to me on [LinkedIn](https://www.linkedin.com/in/bogdan-fotescu/) with a Spotify Mail so you can get access.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Feedback
+
+If you have any feedback, please reach out to me at bogdan@fotescu.com or [LinkedIn](https://www.linkedin.com/in/bogdan-fotescu/), it'll be greatly appreciated.
